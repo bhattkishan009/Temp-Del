@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSBC.THOR.STEP.BackEnd.Service", "HSBC.THOR.STEP.BackEnd.Service\HSBC.THOR.STEP.BackEnd.Service.csproj", "{05184274-91A7-40E6-901C-CB0609557FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSBC.THOR.STEP.BackEnd.Repository", "HSBC.THOR.STEP.BackEnd.Repository\HSBC.THOR.STEP.BackEnd.Repository.csproj", "{EB59CE43-4B98-4F44-9ACD-909F4AD577F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSBC.THOR.STEP.BackEnd.Common", "HSBC.THOR.STEP.BackEnd.Common\HSBC.THOR.STEP.BackEnd.Common.csproj", "{B6054EE5-A46D-4A2F-8132-334E3E26B9AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{823BFC88-7088-42EC-8EA2-DFF3E8114C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSBC.THOR.STEP.BackEnd.API", "HSBC.THOR.STEP.BackEnd.API\HSBC.THOR.STEP.BackEnd.API.csproj", "{DDF35F10-71EE-4F13-952C-2326FB66E41D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05184274-91A7-40E6-901C-CB0609557FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05184274-91A7-40E6-901C-CB0609557FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05184274-91A7-40E6-901C-CB0609557FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05184274-91A7-40E6-901C-CB0609557FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB59CE43-4B98-4F44-9ACD-909F4AD577F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB59CE43-4B98-4F44-9ACD-909F4AD577F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB59CE43-4B98-4F44-9ACD-909F4AD577F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB59CE43-4B98-4F44-9ACD-909F4AD577F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6054EE5-A46D-4A2F-8132-334E3E26B9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6054EE5-A46D-4A2F-8132-334E3E26B9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6054EE5-A46D-4A2F-8132-334E3E26B9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6054EE5-A46D-4A2F-8132-334E3E26B9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF35F10-71EE-4F13-952C-2326FB66E41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF35F10-71EE-4F13-952C-2326FB66E41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF35F10-71EE-4F13-952C-2326FB66E41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF35F10-71EE-4F13-952C-2326FB66E41D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05184274-91A7-40E6-901C-CB0609557FC2} = {823BFC88-7088-42EC-8EA2-DFF3E8114C58}
+		{EB59CE43-4B98-4F44-9ACD-909F4AD577F8} = {823BFC88-7088-42EC-8EA2-DFF3E8114C58}
+		{DDF35F10-71EE-4F13-952C-2326FB66E41D} = {823BFC88-7088-42EC-8EA2-DFF3E8114C58}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F9C2879-C957-4826-8D1E-EFD4A2988F30}
+	EndGlobalSection
+EndGlobal
